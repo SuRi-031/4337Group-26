@@ -8,6 +8,13 @@
         Title="Инструментальные Средства Разработки Программного Обеспечения" 
         Height="700" 
         Width="800">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+    
     <Grid>
         <Grid>
             <Grid.RowDefinitions>
@@ -51,7 +58,9 @@
                 </Grid.RowDefinitions>
 
                 <!-- Места для добавления элементов управления -->
-                <Button Content="Нажмите" Grid.Row="19" Margin="5" Click="Button_Click"/>
+                <Button Content="Нажмите" Grid.Row="19" Width="70" Click="Button_Click"/>
+                <Button Content="Импорт данных" Grid.Row="19" Width="100" HorizontalAlignment="Left"/>
+                <Button Content="Экспорт в Excel" Grid.Row="19" Width="100" HorizontalAlignment="Right"/>
                 <!---->
 
             </Grid>
