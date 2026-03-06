@@ -59,7 +59,10 @@
 
                 <!-- Места для добавления элементов управления -->
                 <Button Content="Нажмите" Grid.Row="19" Width="70" Click="Button_Click"/>
-                <Button Content="Импорт данных" Grid.Row="19" Width="100" HorizontalAlignment="Left"/>
+                <Button x:Name="ImportData" Content="Импорт данных" 
+                        Grid.Row="19" Width="100" 
+                        HorizontalAlignment="Left" 
+                        Click="ImportData_Click"/>
                 <Button Content="Экспорт в Excel" Grid.Row="19" Width="100" HorizontalAlignment="Right"/>
                 <!---->
 
