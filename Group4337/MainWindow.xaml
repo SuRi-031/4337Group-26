@@ -63,7 +63,8 @@
                         Grid.Row="19" Width="100" 
                         HorizontalAlignment="Left" 
                         Click="ImportData_Click"/>
-                <Button Content="Экспорт в Excel" Grid.Row="19" Width="100" HorizontalAlignment="Right"/>
+                <Button Content="Экспорт в Excel" x:Name="ExportData" Click="ExportData_Click"
+                        Grid.Row="19" Width="100" HorizontalAlignment="Right"/>
                 <!---->
 
             </Grid>
